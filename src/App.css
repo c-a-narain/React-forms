@@ -1,0 +1,187 @@
+body {
+  background-image: linear-gradient(90deg, #a1c4fd 0%, white 100%);
+}
+
+.Form {
+  width: 40%;
+  height: 600px;
+  background-color: rgb(65, 213, 221);
+  float: left;
+  margin: 30px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.Form p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 50px;
+  background-color: #d9d9d9;
+  color: rgb(31, 30, 30);
+  font-size: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.Form label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(31, 30, 30);
+  margin-left: 30px;
+}
+
+.Form li {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  float: left;
+  clear: right;
+}
+
+.Form input {
+  border: 2px rgb(31, 30, 30) solid;
+  background-color: #d9d9d9;
+  font-size: 120%;
+}
+
+.Form button {
+  background-color: #545454;
+  border: 1px #545454 solid;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-left: 40%;
+}
+
+.Form button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Form button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Form button:hover span {
+  padding-right: 25px;
+}
+
+.Form button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.Display {
+  width: 40%;
+  height: 600px;
+  background-color: rgb(65, 213, 221);
+  float: left;
+  margin: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  position: relative;
+  flex: 50%;
+  overflow: scroll;
+}
+
+.Display p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 50px;
+  background-color: #d9d9d9;
+  font-size: 30px;
+  position: relative;
+  display: block;
+  text-align: center;
+  border-radius: 30px;
+}
+
+#sorting{
+  text-align: left;
+  display: inline;
+  padding: 0%;
+  border-radius: 0%;
+}
+#favorites {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  margin: 20px;
+  background-color: #d9d9d9;
+  /* position: absolute; */
+  /* margin-left: 80%; */
+  border: 1px #545454 solid;
+  color: #545454;
+  float: right;
+}
+
+.product1 div {
+  background-color: #545454;
+  margin: 10px 10px 10px 10px;
+  width: 96%;
+  height: 30%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.product1 p {
+  margin: 5px;
+  background-color: #545454;
+  color: white;
+  font-size: 20px;
+}
+
+#name {
+  position: relative;
+  display: inline-block;
+}
+
+#description {
+  position: relative;
+  display: block;
+}
+#rate {
+  position: relative;
+  display: block;
+}
+#discount {
+  position: relative;
+  display: block;
+}
+#quantity {
+  position: relative;
+  display: block;
+}
+
+.functionalities div {
+  background-color: #545454;
+  margin: 90px 10px 10px 10px;
+  width: 96%;
+  height: 30%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.functionalities p {
+  background-color: #545454;
+  color: white;
+  font-size: 20px;
+  padding: 50px;
+}
+.functionalities input {
+  font-size: 10px;
+}
+
+#icon{
+  background-color:#545454;
+}
